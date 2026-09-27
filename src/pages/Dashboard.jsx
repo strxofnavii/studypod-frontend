@@ -649,7 +649,7 @@ function Dashboard() {
 
         <div className="study-image-card">
           <img
-            src="/study-workspace.jpg"
+            src="/src/assets/study-workspace.png"
             alt="Study workspace"
             className="study-dashboard-image"
           />
