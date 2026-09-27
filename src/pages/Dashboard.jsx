@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { getTasks, createTask, updateTask, deleteTask } from '../api/tasks'
 import { getSessionStats } from '../api/sessions'
 import { getActiveAnnouncements } from '../api/announcements'
+import studyWorkspace from '../assets/study-workspace.png'
 
 /* =====================================================
    ICONS
@@ -649,7 +650,7 @@ function Dashboard() {
 
         <div className="study-image-card">
           <img
-            src="/src/assets/study-workspace.png"
+            src={studyWorkspace}
             alt="Study workspace"
             className="study-dashboard-image"
           />
