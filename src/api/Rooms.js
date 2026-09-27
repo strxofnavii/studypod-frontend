@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = 'http://localhost:8080'
+const API_BASE = 'https://studypod-backend-bk64.onrender.com'
 
 function authHeader() {
   const token = localStorage.getItem('token')
