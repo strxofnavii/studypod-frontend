@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { loginUser, registerUser } from '../api/auth'
 import { decodeToken } from '../utils/jwt'
-import studyWorkspace from '../assets/girl.jpg'
+import studyWorkspace from "../assets/study-workspace.png";
 
 // Generates a random-ish field name each time the component mounts,
 // so Chrome/Edge autofill heuristics can't reliably match these
