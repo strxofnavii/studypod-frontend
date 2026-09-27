@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getRooms, createRoom } from '../api/rooms'
+import { getRooms, createRoom } from '../api/Rooms'
 
 function Icon({ name, size = 18 }) {
   const common = {

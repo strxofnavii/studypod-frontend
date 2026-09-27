@@ -14,7 +14,7 @@ import {
   createRoomTask,
   updateRoomTask,
   deleteRoomTask,
-} from '../api/rooms'
+} from '../api/Rooms'
 
 // Decodes the "sub" (subject) claim out of the JWT already stored at login.
 // This is the account's internal id — the same id chat/notes/tasks use as "userId".

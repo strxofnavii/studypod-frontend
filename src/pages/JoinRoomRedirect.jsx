@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { joinRoom } from '../api/rooms'
+import { joinRoom } from '../api/Rooms'
 
 function JoinRoomRedirect() {
   const { joinCode } = useParams()

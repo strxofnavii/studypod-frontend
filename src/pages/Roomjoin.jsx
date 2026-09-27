@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { getRoomByInviteCode, joinRoom } from '../api/rooms'
+import { getRoomByInviteCode, joinRoom } from '../api/Rooms'
 
 function RoomJoin() {
   const { inviteCode } = useParams()

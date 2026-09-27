@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getMyRooms, createRoom, joinRoom } from '../api/rooms'
+import { getMyRooms, createRoom, joinRoom } from '../api/Rooms'
 
 function RoomsLobby() {
   const navigate = useNavigate()
